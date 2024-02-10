@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">LightingSteps</string>
+    <string name="nogranted">Для поиска Bluetooth BLE, требуется разрешение доступа к местоположению (политика Google). Приложение не использует данные местоположения.</string>
+    <string name="grant_query">Запросить</string>
+    <string name="page_device">Устройство</string>
+    <string name="page_config">Параметры</string>
+    <string name="page_state">Состояние</string>
+    <string name="bt_failed">Не удалось найти или подключиться к устройству, попробуйте перезапустить приложение.</string>
+    <string name="bt_noadapter">Включите BlueTooth и перезапустите приложение.</string>
+    <string name="bt_disconnected">Устройство отключено, для подключения перезапустите приложение.</string>
+    <string name="bt_scan">Поиск...</string>
+    <string name="bt_connect">Подключение...</string>
+    <string name="cfg_saved">Настройки сохраненны!</string>
+    <string name="cfg_defaults">Настройки сброшены!</string>
+    <string name="param_0">Количество ступеней</string>
+    <string name="param_1">Яркость дежурной подсветки</string>
+    <string name="param_2">Общая яркость ступеней</string>
+    <string name="param_3">Дистанция сработки нижнего датчика</string>
+    <string name="param_4">Дистанция сработки верхнего датчика</string>
+    <string name="param_5">Время работы</string>
+    <string name="param_6">Скорость анимации</string>
+    <string name="param_7">Тип анимации</string>
+    <string-array name="param_7_list">
+        <item>Плавная</item>
+        <item>Плавная (инверсия)</item>
+        <item>Стопка</item>
+        <item>Стопка (инверсия)</item>
+        <item>Стопка обратно</item>
+        <item>Стопка обратно (инверсия)</item>
+        <item>Все</item>
+    </string-array>
+    <string name="param_8">Тип проходного выключателя</string>
+    <string-array name="param_8_list">
+        <item name="param_8_0">Выключатель</item>
+        <item name="param_8_1">Кнопка</item>
+    </string-array>
+    <string name="param_9">Обратная анимации</string>
+    <string-array name="param_9_list">
+        <item name="param_9_0">Вниз</item>
+        <item name="param_9_1">Вверх</item>
+        <item name="param_9_2">Из центра</item>
+    </string-array>
+    <string name="param_10">Тип датчика</string>
+    <string-array name="param_10_list">
+        <item name="param_10_0">Ультра звуковой</item>
+        <item name="param_10_1">Положительный уровень</item>
+        <item name="param_10_2">Отрицательный уровень</item>
+        <item name="param_10_3">Переключающийся уровень</item>
+        <item name="param_10_4">DYP-A02-V2.0 (PWM)</item>
+    </string-array>
+    <string name="state_0">Дистанция нижнего датчик</string>
+    <string name="state_1">Дистанция верхнего датчик</string>
+    <string name="state_2">Нижний датчик</string>
+    <string name="state_3">Верхний датчик</string>
+    <string name="state_4">День</string>
+    <string name="state_5">Проходной выключатель</string>
+    <string name="state_save">Сохранить параметры</string>
+    <string name="state_def">Сбросить по умолчанию</string>
+</resources>

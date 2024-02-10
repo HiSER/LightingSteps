@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tmd.utils.fixScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/config"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_0" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="4"
+                tools:ignore="HardcodedText" />
+
+            <com.hiserlitvin.lightingsteps.mySeekBar
+                android:id="@+id/seek_0"
+                android:tag="0"
+                style="@style/ParamSeek" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="24"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_1" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="0"
+                tools:ignore="HardcodedText" />
+
+            <com.hiserlitvin.lightingsteps.mySeekBar
+                android:id="@+id/seek_1"
+                android:tag="1"
+                style="@style/ParamSeek" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="10"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_2" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="0"
+                tools:ignore="HardcodedText" />
+
+            <com.hiserlitvin.lightingsteps.mySeekBar
+                android:id="@+id/seek_2"
+                android:tag="2"
+                style="@style/ParamSeek" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="10"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_3" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="0"
+                tools:ignore="HardcodedText" />
+
+            <com.hiserlitvin.lightingsteps.mySeekBar
+                android:id="@+id/seek_3"
+                android:tag="3"
+                style="@style/ParamSeek" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="20"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_4" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="0"
+                tools:ignore="HardcodedText" />
+
+            <com.hiserlitvin.lightingsteps.mySeekBar
+                android:id="@+id/seek_4"
+                android:tag="4"
+                style="@style/ParamSeek" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="20"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_5" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="5"
+                tools:ignore="HardcodedText" />
+
+            <com.hiserlitvin.lightingsteps.mySeekBar
+                android:id="@+id/seek_5"
+                android:tag="5"
+                style="@style/ParamSeek" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="30"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_6" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="0.1"
+                tools:ignore="HardcodedText" />
+
+            <com.hiserlitvin.lightingsteps.mySeekBar
+                android:id="@+id/seek_6"
+                android:tag="6"
+                style="@style/ParamSeek" />
+
+            <TextView
+                style="@style/ParamSeekLimit"
+                android:text="2"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_7" />
+
+            <com.hiserlitvin.lightingsteps.myListView
+                android:id="@+id/list_7"
+                android:tag="7"
+                style="@style/ParamList" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_8" />
+
+            <com.hiserlitvin.lightingsteps.myListView
+                android:id="@+id/list_8"
+                android:tag="8"
+                style="@style/ParamList" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_9" />
+
+            <com.hiserlitvin.lightingsteps.myListView
+                android:id="@+id/list_9"
+                android:tag="9"
+                style="@style/ParamList" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ParamLayout">
+
+            <TextView
+                style="@style/ParamTitle"
+                android:text="@string/param_10" />
+
+            <com.hiserlitvin.lightingsteps.myListView
+                android:id="@+id/list_10"
+                android:tag="10"
+                style="@style/ParamList" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.tmd.utils.fixScrollView>
